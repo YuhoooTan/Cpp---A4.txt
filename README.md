@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // Step 1: Create and write to file
+
     ofstream out("color.txt");
 
     if (out.is_open()) {
@@ -18,7 +18,7 @@ int main() {
         return 1;
     }
 
-    // Step 2: Read from file and copy
+   
     ifstream in("color.txt");
     ofstream copy("color_copy.txt");
 
